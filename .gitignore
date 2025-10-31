@@ -1,0 +1,51 @@
+# Alex Diagrams Library — .gitignore
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.swp
+
+# Cache and backup folders
+__pycache__/
+cache/
+temp/
+backup/
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Local configs
+config_local.json
+.env
+
+# Design software temporary files
+*.psd
+*.ai
+*.xcf
+*.sketch
+*.blend1
+
+# Exported previews or renders
+export/
+renders/
+
+# Canva or external workspaces (local exports)
+canva/
+drafts/
+
+# Node or web build folders (future use)
+node_modules/
+dist/
+build/
