@@ -5,7 +5,7 @@ This repository serves as a central asset store for multiple GPT chatbots, start
 ## Structure
 
 - `Alex/` — Contains the diagrams and logos for GPT Alex. Within this folder, subject-specific subfolders (Biology, Chemistry, Mathematics, Physics, etc.) organize the diagrams, and `assets/logos` holds Alex-related icons.
-- `Valor/` — Reserved for GPT Valor assets. The `.gitkeep` placeholder keeps the folder in version control until Valor-specific assets are added.
+- `Valor/` — Contains logos and assets for GPT Valor. See `Valor/index.md` for details on available logos and references to Valor's architecture documentation.
 - `.gitignore` and `LICENSE.txt` are included as standard project files.
 
 ## Purpose
