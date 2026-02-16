@@ -10,6 +10,7 @@ This index documents assets for GPT Valor, including logos and architecture diag
 |------------|---------|---------|
 | Logos | /assets | Available |
 | Architecture Diagrams | /architecture | Planned |
+| PDF Manual | /assets | Available |
 
 ## Available Assets
 
@@ -21,6 +22,7 @@ This index documents assets for GPT Valor, including logos and architecture diag
 | Valor Logo Large | assets/Valor_Logo512X485.png | 512×485 |
 | VAL∅R Ⅶ Logo | assets/VAL∅R_Ⅶ_LOGO_256.png | 256×256 |
 | VAL∅R Ⅷ Model Lock Banner | assets/valor_banner_model_lock_v2 | 1400x250 | 
+ 
 
 ---
 
