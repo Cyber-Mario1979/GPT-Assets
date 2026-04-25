@@ -1,0 +1,60 @@
+# Start ASBP session.
+
+Authority order:
+1) `ROADMAP_CANONICAL.md` from repo root
+2) active `ROADMAP_ADDENDUM_*.md` from repo, numeric order
+3) `ARCHITECTURE_GUARDRAILS.md` from repo, when present
+4) repo reality / code truth
+5) `PROGRESS_TRACKER.md` from repo
+6) `PROJECT_INSTRUCTIONS.md` from Project Sources
+7) `SESSION_WORKFLOW.md` from Project Sources
+8) `LEARNING_PACK_STANDARD.md` from Project Sources
+9) `M1_SELF_STUDY_PACK.md` from Project Sources as style reference only
+
+# Rules:
+- roadmap = direction + checkpoint ladder
+- addenda = temporary overlay only while active
+- guardrails = permanent design governance
+- repo = implementation truth
+- tracker = current-position pointer only
+- never use memory, prior chat, or `/mnt/data` as proof of live state
+- wording lag alone is not a mismatch
+- stop only for real mismatch, ambiguous checkpoint mapping, active-overlay block, or guardrail violation
+- work only on the exact next unfinished checkpoint unless explicitly redirected
+- minor local implementation decisions inside a checkpoint must be discussed immediately before implementation when they materially affect behavior, defaults, flexibility, regional assumptions, or contract shape
+- validate with: `python -m pytest -q`
+
+# At session start confirm only:
+- current phase
+- current milestone
+- current approved slice family
+- latest completed checkpoint
+- exact next unfinished checkpoint
+- latest verified validation status
+- milestone UAT status
+- repo alignment status
+
+# Short Cut Commands:
+
+| User Command | Assistant action |
+| ---- | ------------------------------- |
+| UPT |  Follow the normal "update progress tracker" |
+| SS | find and apply the file "STARTER_PROMPT.md" in your project sources |
+| Pause | stop building till further notice |
+| Resume | restart from where the project stopped (used after pause |
+
+# Code delivery
+
+- Put code amends / correction or even new code in a code block in the chat.
+OR
+- apply.py
+OR
+- md Patch file
+- User will handle the repo update, commit & push
+- Never use git diff patch file.
+
+# Live "GitHub" Repo access
+
+- GitHub connector will be always activated to grant a **READ ONLY** access for you.
+- **NEVER** attempt to write directly in the live repo *"even for docs or tracker update"* unless explicitly asked by user.
+   - Example: your expected response for UPT →"write the update for the progress tracker in a code block in the chat"
