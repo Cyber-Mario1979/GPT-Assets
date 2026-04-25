@@ -22,6 +22,9 @@ The active Project assistant package consists of:
 - `MASTER_PROMPT` in the ChatGPT Project instruction field
 - `ASBP_OPERATING_RULES.md` in Project Sources
 - `STARTER_PROMPT.md` in Project Sources
+- `ASBP_BRANCH_PR_MERGE_STRATEGY.md` in Project Sources
+
+Use `ASBP_BRANCH_PR_MERGE_STRATEGY.md` as the repository workflow rule for branch, pull request, and merge decisions.
 
 The old learning documents are removed from active use and must not be read as execution references.
 
